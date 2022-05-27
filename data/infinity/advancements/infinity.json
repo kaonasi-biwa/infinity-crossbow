@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "enter":{
+            "trigger": "minecraft:shot_crossbow",
+            "conditions": {
+                "item": {
+                    "enchantments": [
+                        {"enchantment": "infinity"}
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "infinity:trigger"
+    }
+}
